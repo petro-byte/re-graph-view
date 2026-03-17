@@ -328,6 +328,8 @@ function getClusteringOptions() {
         }
     });
 
+    options.push("Louvain Computed")
+
     if (louvainFound) options.push("Louvain");
     if (mclFound) options.push("MCL");
     if (partitionsFound) options.push("Partition");

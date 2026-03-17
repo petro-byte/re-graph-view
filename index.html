@@ -76,10 +76,6 @@
                         <input type="file" id="libraryFile" name="files[]" multiple />
                         <label for="libraryFile" id="fileLabel">Gate Library</label>
                     </li>
-                    <!-- <li>
-                            <input type="file" id="projectFile" name="files[]" multiple />
-                            <label for="projectFile" id="fileLabel">Project</label>
-                        </li> -->
                     <li onclick="openModal('samplesModal');">Sample</li>
                 </ul>
             </li>
@@ -89,7 +85,7 @@
             <li class="submenu">
                 <a href="#" onclick="toggleSubmenu('analysisSubmenu');">Analysis</a>
                 <ul id="analysisSubmenu">
-                    <li onclick="openClusterModal();">Cluster Detection</li>
+                    <li onclick="openClusterModal();">Highlight Clusters</li>
                     <li onclick="openLayoutModal();">Cluster Layout</li>
                     <li onclick="openStructureModal();">Sequential Structures</li>
                     <li onclick="resetGraph();">Reset Graph</li>
@@ -185,7 +181,8 @@
                 <option value="binary.json">Binary Tree</option>
                 <option value="loops.json">Loops</option>
                 <option value="RS232-T110_Tjin_baud.json">Small Design</option>
-                <option value="RS232-T910_Tjin_uart.json">Large Design</option>
+                <option value="RS232-T910_Tjin_uart.json">Medium Design</option>
+                <option value="BasicRSA-T110_TjIn_modmult.json">Large Design</option>
             </select>
 
             <br />
@@ -358,6 +355,25 @@
 
                     <div class="modalCenter">
                         <button id="clusteringAnwenden" onclick="applyLouvain();">Apply</button>
+                        <button id="clusteringZuruecksetzen" onclick="resetGraph();">Reset</button>
+                    </div>
+
+                </div>
+
+                <!-- Computed Louvain options -->
+
+                <div class="clusterparams" id="LouvainComputedParams" style="display: none;">
+
+                    <br />
+
+                    <label for="louvainNumIterations">Iterations:</label>
+                    <input value="2000" min="1" type="number" id="louvainNumIterations">
+
+                    <br />
+                    <br />
+
+                    <div class="modalCenter">
+                        <button id="clusteringAnwenden" onclick="applyLouvainComputed();">Apply</button>
                         <button id="clusteringZuruecksetzen" onclick="resetGraph();">Reset</button>
                     </div>
 
@@ -833,6 +849,15 @@
             to which this tool can be applied.
             <br />
             Please use the cluster tool first.
+        </div>
+
+        <!-- Invalid Louvain iteration number -->
+
+        <div class="modalContent warning" id="louvainIterationsWarning" style="display: none;">
+            <span>
+                Please select a positive integer
+                for the number of louvain iterations.
+            </span>
         </div>
 
     </div>
