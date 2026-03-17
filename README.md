@@ -1,4 +1,4 @@
-# RE-Graph-View  
+# RE Graph View  
 ### 3D Graph-Based Reverse Engineering for Digital Circuits
 
 Live Demo:  
