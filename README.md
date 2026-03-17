@@ -8,7 +8,7 @@ https://petro-byte.github.io/re-graph-view
 
 ## Overview
 
-RE-Graph-View is a browser-based interactive tool for reverse engineering digital circuits through 3D graph visualization and structural analysis.
+RE Graph View is a browser-based interactive tool for reverse engineering digital circuits through 3D graph visualization and structural analysis.
 
 It transforms gate-level netlists into dynamic graph representations that enable intuitive exploration of complex circuit structures.
 
