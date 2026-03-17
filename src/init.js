@@ -328,7 +328,7 @@ function getClusteringOptions() {
         }
     });
 
-    options.push("Louvain Computed")
+    options.push("Louvain Computed");
 
     if (louvainFound) options.push("Louvain");
     if (mclFound) options.push("MCL");

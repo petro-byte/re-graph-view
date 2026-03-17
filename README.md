@@ -1,8 +1,7 @@
 # RE Graph View  
 ### 3D Graph-Based Reverse Engineering for Digital Circuits
 
-Live Demo:  
-https://petro-byte.github.io/re-graph-view
+Live Demo: https://petro-byte.github.io/re-graph-view
 
 ![Graph Visualization](./img/preview.png)
 

@@ -39,14 +39,16 @@ function applyLouvain() {
 }
 
 function applyLouvainComputed() {
-    var numIterations = parseInt(document.getElementById("louvainNumIterations").value);
-    if(Number.isInteger(numIterations) && numIterations >= 1) {
-      console.log("Test");
-      var computedCommunities = computeLouvainFallback(numIterations);
-      cacheComputedLouvainResult(computedCommunities);
-      setRegularCluster("louvain", 0, 0);
+    var numIterations = parseInt(
+        document.getElementById("louvainNumIterations").value,
+    );
+    if (Number.isInteger(numIterations) && numIterations >= 1) {
+        console.log("Test");
+        var computedCommunities = computeLouvainFallback(numIterations);
+        cacheComputedLouvainResult(computedCommunities);
+        setRegularCluster("louvain", 0, 0);
     } else {
-      showWarning("louvainIterationsWarning");
+        showWarning("louvainIterationsWarning");
     }
 }
 

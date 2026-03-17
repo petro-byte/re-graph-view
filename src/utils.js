@@ -147,16 +147,16 @@ function nodeFunctionInfo(index) {
     var pred = nodes.filter((n) => node.pred.indexOf(n.index) !== -1);
     var succ = nodes.filter((n) => node.succ.indexOf(n.index) !== -1);
 
-    console.log("Vorgänger:");
+    console.log("Predecessor:");
 
     for (p of pred) {
         console.log(p.function);
     }
 
-    console.log("Knoten:");
+    console.log("Node:");
     console.log(node.function);
 
-    console.log("Nachfolger:");
+    console.log("Successor:");
 
     for (s of succ) {
         console.log(s.function);
