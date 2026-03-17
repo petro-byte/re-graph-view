@@ -1,0 +1,702 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "OUTPUT_baud_clk"
+        },
+        {
+            "partition": "top",
+            "id": "INPUT_sys_clk"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "DFFSR_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "DFFSR_10"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "DFFSR_2"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "DFFSR_3"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "DFFSR_4"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "DFFSR_5"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "DFFSR_6"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "DFFSR_7"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "DFFSR_8"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "DFFSR_9"
+        },
+        {
+            "partition": "top",
+            "id": "INPUT_sys_rst_l"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "AOI21X1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NOR2X1_3"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "AOI21X1_2"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "INVX1_3"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NAND3X1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "XOR2X1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "XNOR2X1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "INVX1_5"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.32_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NOR2X1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "OAI21X1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "INVX1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "NAND2X1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "NAND3X1_4"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "NOR2X1_6"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NAND3X1_2"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "OAI21X1_2"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "INVX1_2"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NOR2X1_10"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "INVX1_8"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NAND3X1_3"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.37_cluster_0, i_1.25_cluster_0, i_1.32_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "NOR3X1_1"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "XNOR2X1_2"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NOR2X1_9"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "OAI21X1_3"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "INVX1_4"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NOR2X1_4"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "INVX1_6"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "NOR2X1_7"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "INVX1_7"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.5_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "louvain": "run_0_cluster_4",
+            "id": "NOR2X1_8"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NAND2X1_2"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.5_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NOR2X1_2"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.3_cluster_0, i_1.37_cluster_0, i_1.25_cluster_0, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.4_cluster_0, i_1.35_cluster_0, i_1.32_cluster_0",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NOR2X1_11"
+        },
+        {
+            "partition": "top",
+            "mcl": "i_1.4_cluster_1, i_1.25_cluster_0, i_1.32_cluster_1, i_1.37_cluster_1, i_1.27_cluster_0, i_1.22_cluster_0, i_1.23_cluster_0, i_1.35_cluster_1, i_1.3_cluster_1",
+            "nsbm": "run_0_cluster_0, run_0_cluster_1",
+            "id": "NOR2X1_5"
+        }
+    ],
+    "links": [
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_1"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_10"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_2"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_3"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_4"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_5"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_6"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_7"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_8"
+        },
+        {
+            "source": "INPUT_sys_clk",
+            "target": "DFFSR_9"
+        },
+        {
+            "source": "DFFSR_1",
+            "target": "AOI21X1_1"
+        },
+        {
+            "source": "DFFSR_1",
+            "target": "INVX1_3"
+        },
+        {
+            "source": "DFFSR_1",
+            "target": "NAND3X1_1"
+        },
+        {
+            "source": "DFFSR_1",
+            "target": "XOR2X1_1"
+        },
+        {
+            "source": "DFFSR_10",
+            "target": "OUTPUT_baud_clk"
+        },
+        {
+            "source": "DFFSR_10",
+            "target": "XNOR2X1_1"
+        },
+        {
+            "source": "DFFSR_2",
+            "target": "AOI21X1_1"
+        },
+        {
+            "source": "DFFSR_2",
+            "target": "NAND3X1_1"
+        },
+        {
+            "source": "DFFSR_2",
+            "target": "XOR2X1_1"
+        },
+        {
+            "source": "DFFSR_3",
+            "target": "AOI21X1_1"
+        },
+        {
+            "source": "DFFSR_3",
+            "target": "NAND3X1_1"
+        },
+        {
+            "source": "DFFSR_4",
+            "target": "INVX1_5"
+        },
+        {
+            "source": "DFFSR_4",
+            "target": "NOR2X1_1"
+        },
+        {
+            "source": "DFFSR_4",
+            "target": "OAI21X1_1"
+        },
+        {
+            "source": "DFFSR_5",
+            "target": "INVX1_1"
+        },
+        {
+            "source": "DFFSR_6",
+            "target": "NAND2X1_1"
+        },
+        {
+            "source": "DFFSR_6",
+            "target": "NAND3X1_4"
+        },
+        {
+            "source": "DFFSR_6",
+            "target": "NOR2X1_1"
+        },
+        {
+            "source": "DFFSR_6",
+            "target": "NOR2X1_6"
+        },
+        {
+            "source": "DFFSR_7",
+            "target": "NAND3X1_2"
+        },
+        {
+            "source": "DFFSR_7",
+            "target": "NAND3X1_4"
+        },
+        {
+            "source": "DFFSR_7",
+            "target": "OAI21X1_2"
+        },
+        {
+            "source": "DFFSR_8",
+            "target": "INVX1_2"
+        },
+        {
+            "source": "DFFSR_8",
+            "target": "NOR2X1_10"
+        },
+        {
+            "source": "DFFSR_9",
+            "target": "AOI21X1_2"
+        },
+        {
+            "source": "DFFSR_9",
+            "target": "INVX1_8"
+        },
+        {
+            "source": "DFFSR_9",
+            "target": "NAND3X1_3"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_1"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_10"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_2"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_3"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_4"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_5"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_6"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_7"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_8"
+        },
+        {
+            "source": "INPUT_sys_rst_l",
+            "target": "DFFSR_9"
+        },
+        {
+            "source": "AOI21X1_1",
+            "target": "NOR2X1_3"
+        },
+        {
+            "source": "NOR2X1_3",
+            "target": "DFFSR_3"
+        },
+        {
+            "source": "AOI21X1_2",
+            "target": "DFFSR_9"
+        },
+        {
+            "source": "INVX1_3",
+            "target": "DFFSR_1"
+        },
+        {
+            "source": "NAND3X1_1",
+            "target": "INVX1_4"
+        },
+        {
+            "source": "NAND3X1_1",
+            "target": "NOR2X1_2"
+        },
+        {
+            "source": "NAND3X1_1",
+            "target": "NOR2X1_4"
+        },
+        {
+            "source": "NAND3X1_1",
+            "target": "NOR3X1_1"
+        },
+        {
+            "source": "XOR2X1_1",
+            "target": "DFFSR_2"
+        },
+        {
+            "source": "XNOR2X1_1",
+            "target": "DFFSR_10"
+        },
+        {
+            "source": "INVX1_5",
+            "target": "NOR2X1_4"
+        },
+        {
+            "source": "INVX1_5",
+            "target": "NOR3X1_1"
+        },
+        {
+            "source": "NOR2X1_1",
+            "target": "NAND3X1_2"
+        },
+        {
+            "source": "OAI21X1_1",
+            "target": "NOR2X1_5"
+        },
+        {
+            "source": "INVX1_1",
+            "target": "NAND3X1_3"
+        },
+        {
+            "source": "INVX1_1",
+            "target": "NOR3X1_1"
+        },
+        {
+            "source": "INVX1_1",
+            "target": "XNOR2X1_2"
+        },
+        {
+            "source": "NAND2X1_1",
+            "target": "INVX1_6"
+        },
+        {
+            "source": "NAND3X1_4",
+            "target": "INVX1_7"
+        },
+        {
+            "source": "NAND3X1_4",
+            "target": "NOR2X1_9"
+        },
+        {
+            "source": "NAND3X1_4",
+            "target": "OAI21X1_3"
+        },
+        {
+            "source": "NOR2X1_6",
+            "target": "NOR2X1_7"
+        },
+        {
+            "source": "NAND3X1_2",
+            "target": "NOR2X1_2"
+        },
+        {
+            "source": "OAI21X1_2",
+            "target": "NOR2X1_8"
+        },
+        {
+            "source": "INVX1_2",
+            "target": "NAND3X1_2"
+        },
+        {
+            "source": "INVX1_2",
+            "target": "NOR2X1_9"
+        },
+        {
+            "source": "INVX1_2",
+            "target": "OAI21X1_3"
+        },
+        {
+            "source": "NOR2X1_10",
+            "target": "NOR2X1_11"
+        },
+        {
+            "source": "INVX1_8",
+            "target": "OAI21X1_3"
+        },
+        {
+            "source": "NAND3X1_3",
+            "target": "NAND2X1_2"
+        },
+        {
+            "source": "NAND3X1_3",
+            "target": "OAI21X1_1"
+        },
+        {
+            "source": "NAND3X1_3",
+            "target": "OAI21X1_2"
+        },
+        {
+            "source": "NAND3X1_3",
+            "target": "XNOR2X1_1"
+        },
+        {
+            "source": "NOR3X1_1",
+            "target": "NAND2X1_1"
+        },
+        {
+            "source": "NOR3X1_1",
+            "target": "NAND3X1_4"
+        },
+        {
+            "source": "NOR3X1_1",
+            "target": "NOR2X1_6"
+        },
+        {
+            "source": "XNOR2X1_2",
+            "target": "DFFSR_5"
+        },
+        {
+            "source": "NOR2X1_9",
+            "target": "AOI21X1_2"
+        },
+        {
+            "source": "NOR2X1_9",
+            "target": "NOR2X1_11"
+        },
+        {
+            "source": "OAI21X1_3",
+            "target": "NAND2X1_2"
+        },
+        {
+            "source": "INVX1_4",
+            "target": "NOR2X1_3"
+        },
+        {
+            "source": "INVX1_4",
+            "target": "OAI21X1_1"
+        },
+        {
+            "source": "NOR2X1_4",
+            "target": "NOR2X1_5"
+        },
+        {
+            "source": "NOR2X1_4",
+            "target": "XNOR2X1_2"
+        },
+        {
+            "source": "INVX1_6",
+            "target": "NOR2X1_7"
+        },
+        {
+            "source": "INVX1_6",
+            "target": "OAI21X1_2"
+        },
+        {
+            "source": "NOR2X1_7",
+            "target": "DFFSR_6"
+        },
+        {
+            "source": "INVX1_7",
+            "target": "NOR2X1_10"
+        },
+        {
+            "source": "INVX1_7",
+            "target": "NOR2X1_8"
+        },
+        {
+            "source": "NOR2X1_8",
+            "target": "DFFSR_7"
+        },
+        {
+            "source": "NAND2X1_2",
+            "target": "AOI21X1_2"
+        },
+        {
+            "source": "NOR2X1_2",
+            "target": "NAND3X1_3"
+        },
+        {
+            "source": "NOR2X1_11",
+            "target": "DFFSR_8"
+        },
+        {
+            "source": "NOR2X1_5",
+            "target": "DFFSR_4"
+        }
+    ]
+}

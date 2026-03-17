@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "root",
+            "function": "f"
+        },
+        {
+            "id": "1",
+            "function": "f"
+        },
+        {
+            "id": "2",
+            "function": "f"
+        },
+        {
+            "id": "1.1",
+            "function": "f"
+        },
+        {
+            "id": "1.2",
+            "function": "f"
+        },
+        {
+            "id": "2.1",
+            "function": "f"
+        },
+        {
+            "id": "2.2",
+            "function": "f"
+        },
+        {
+            "id": "1.1.1",
+            "function": "f"
+        },
+        {
+            "id": "1.1.2",
+            "function": "f"
+        },
+        {
+            "id": "1.2.1",
+            "function": "f"
+        },
+        {
+            "id": "1.2.2",
+            "function": "f"
+        },
+        {
+            "id": "2.1.1",
+            "function": "f"
+        },
+        {
+            "id": "2.1.2",
+            "function": "f"
+        },
+        {
+            "id": "2.2.1",
+            "function": "f"
+        },
+        {
+            "id": "2.2.2",
+            "function": "f"
+        }
+    ],
+    "links": [
+        {
+            "source": "root",
+            "target": "1"
+        },
+        {
+            "source": "root",
+            "target": "2"
+        },
+        {
+            "source": "1",
+            "target": "1.1"
+        },
+        {
+            "source": "1",
+            "target": "1.2"
+        },
+        {
+            "source": "2",
+            "target": "2.1"
+        },
+        {
+            "source": "2",
+            "target": "2.2"
+        },
+        {
+            "source": "1.1",
+            "target": "1.1.1"
+        },
+        {
+            "source": "1.1",
+            "target": "1.1.2"
+        },
+        {
+            "source": "1.2",
+            "target": "1.2.1"
+        },
+        {
+            "source": "1.2",
+            "target": "1.2.2"
+        },
+        {
+            "source": "2.1",
+            "target": "2.1.1"
+        },
+        {
+            "source": "2.1",
+            "target": "2.1.2"
+        },
+        {
+            "source": "2.2",
+            "target": "2.2.1"
+        },
+        {
+            "source": "2.2",
+            "target": "2.2.2"
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "name": "osu035",
+    "functions": [
+        "and",
+        "aoi",
+        "buf",
+        "dff",
+        "fa",
+        "ha",
+        "inv",
+        "latch",
+        "mux",
+        "nand",
+        "nor",
+        "or",
+        "oai",
+        "xnor",
+        "xor"
+    ],
+    "cells": [
+        {
+            "name": "AND2X1",
+            "function": "and",
+            "type": "simplegate"
+        },
+        {
+            "name": "AND2X2",
+            "function": "and",
+            "type": "simplegate"
+        },
+        {
+            "name": "AOI21X1",
+            "function": "aoi",
+            "type": "complexgate"
+        },
+        {
+            "name": "AOI22X1",
+            "function": "aoi",
+            "type": "complexgate"
+        },
+        {
+            "name": "BUFX2",
+            "function": "buf",
+            "type": "simplegate"
+        },
+        {
+            "name": "BUFX4",
+            "function": "buf",
+            "type": "simplegate"
+        },
+        {
+            "name": "CLKBUFX1",
+            "function": "buf",
+            "type": "simplegate"
+        },
+        {
+            "name": "CLKBUF1",
+            "function": "buf",
+            "type": "simplegate"
+        },
+        {
+            "name": "CLKBUF2",
+            "function": "buf",
+            "type": "simplegate"
+        },
+        {
+            "name": "CLKBUF3",
+            "function": "buf",
+            "type": "simplegate"
+        },
+        {
+            "name": "DFFNEGX1",
+            "function": "dff",
+            "type": "flipflop"
+        },
+        {
+            "name": "DFFPOSX1",
+            "function": "dff",
+            "type": "flipflop"
+        },
+        {
+            "name": "DFFSRX1",
+            "function": "dff",
+            "type": "flipflop"
+        },
+        {
+            "name": "DFFSR",
+            "function": "dff",
+            "type": "flipflop"
+        },
+        {
+            "name": "FAX1",
+            "function": "fa",
+            "type": "complexgate"
+        },
+        {
+            "name": "HAX1",
+            "function": "ha",
+            "type": "complexgate"
+        },
+        {
+            "name": "INVX1",
+            "function": "inv",
+            "type": "simplegate"
+        },
+        {
+            "name": "INVX2",
+            "function": "inv",
+            "type": "simplegate"
+        },
+        {
+            "name": "INVX4",
+            "function": "inv",
+            "type": "simplegate"
+        },
+        {
+            "name": "INVX8",
+            "function": "inv",
+            "type": "simplegate"
+        },
+        {
+            "name": "LATCH",
+            "function": "latch",
+            "type": "latch"
+        },
+        {
+            "name": "MUX2X1",
+            "function": "mux",
+            "type": "complexgate"
+        },
+        {
+            "name": "NAND2X1",
+            "function": "nand",
+            "type": "simplegate"
+        },
+        {
+            "name": "NAND3X1",
+            "function": "nand",
+            "type": "simplegate"
+        },
+        {
+            "name": "NOR2X1",
+            "function": "nor",
+            "type": "simplegate"
+        },
+        {
+            "name": "NOR3X1",
+            "function": "nor",
+            "type": "simplegate"
+        },
+        {
+            "name": "OAI21X1",
+            "function": "oai",
+            "type": "complexgate"
+        },
+        {
+            "name": "OAI22X1",
+            "function": "oai",
+            "type": "complexgate"
+        },
+        {
+            "name": "OR2X1",
+            "function": "or",
+            "type": "simplegate"
+        },
+        {
+            "name": "OR2X2",
+            "function": "or",
+            "type": "simplegate"
+        },
+        {
+            "name": "TBUFX1",
+            "function": "buf",
+            "type": "simplegate"
+        },
+        {
+            "name": "TBUFX2",
+            "function": "buf",
+            "type": "simplegate"
+        },
+        {
+            "name": "XNOR2X1",
+            "function": "xnor",
+            "type": "simplegate"
+        },
+        {
+            "name": "XOR2X1",
+            "function": "xor",
+            "type": "simplegate"
+        }
+    ]
+}
